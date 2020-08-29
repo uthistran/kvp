@@ -1,0 +1,514 @@
+{
+    "Falooda": [
+        {
+            "name": "Royal Falooda",
+            "description": "",
+            "price": "120",
+            "currency": "INR"
+        },
+        {
+            "name": "Pista Falooda",
+            "description": "",
+            "price": "100",
+            "currency": "INR"
+        },
+        {
+            "name": "Badam Falooda",
+            "description": "",
+            "price": "100",
+            "currency": "INR"
+        },
+        {
+            "name": "Rose Falooda",
+            "description": "",
+            "price": "90",
+            "currency": "INR"
+        }
+    ],
+    "Fresh Juice" : [
+        {
+            "name": "Carrot",
+            "description": "",
+            "price": "40",
+            "currency": "INR"
+        },
+        {
+            "name": "Mosambi",
+            "description": "",
+            "price": "45",
+            "currency": "INR"
+        },
+        {
+            "name": "Orange",
+            "description": "",
+            "price": "50",
+            "currency": "INR"
+        },
+        {
+            "name": "Apple",
+            "description": "",
+            "price": "50",
+            "currency": "INR"
+        },
+        {
+            "name": "Watermelon",
+            "description": "",
+            "price": "30",
+            "currency": "INR"
+        },
+        {
+            "name": "Pineapple",
+            "description": "",
+            "price": "40",
+            "currency": "INR"
+        },
+        {
+            "name": "Grape",
+            "description": "",
+            "price": "40",
+            "currency": "INR"
+        },
+        {
+            "name": "Pomegranate",
+            "description": "",
+            "price": "45",
+            "currency": "INR"
+        },
+        {
+            "name": "Aamla",
+            "description": "",
+            "price": "30",
+            "currency": "INR"
+        }
+    ],
+    "Ice Cream Shake" :[
+        {
+            "name": "Pineapple",
+            "description": "",
+            "price": "70",
+            "currency": "INR"
+        },
+        {
+            "name": "Chocolate",
+            "description": "",
+            "price": "80",
+            "currency": "INR"
+        },
+        {
+            "name": "Mango",
+            "description": "",
+            "price": "70",
+            "currency": "INR"
+        },
+        {
+            "name": "Vanila",
+            "description": "",
+            "price": "70",
+            "currency": "INR"
+        },
+        {
+            "name": "Pista",
+            "description": "",
+            "price": "80",
+            "currency": "INR"
+        },
+        {
+            "name": "Strawberry",
+            "description": "",
+            "price": "80",
+            "currency": "INR"
+        },
+        {
+            "name": "Banana",
+            "description": "",
+            "price": "70",
+            "currency": "INR"
+        },
+        {
+            "name": "Crush Milk Shake",
+            "description": "",
+            "price": "60",
+            "currency": "INR"
+        },
+        {
+            "name": "Dark Chocolate",
+            "description": "",
+            "price": "80",
+            "currency": "INR"
+        },
+        {
+            "name": "Horlicks",
+            "description": "",
+            "price": "60",
+            "currency": "INR"
+        },
+        {
+            "name": "Boost",
+            "description": "",
+            "price": "60",
+            "currency": "INR"
+        },
+        {
+            "name": "Five Star",
+            "description": "",
+            "price": "60",
+            "currency": "INR"
+        },
+        {
+            "name": "Oreo",
+            "description": "",
+            "price": "60",
+            "currency": "INR"
+        }
+    ],
+    "Apple Tree Special" : [
+        {
+            "name": "Tender Coconut Crush",
+            "description": "",
+            "price": "50",
+            "currency": "INR"
+        },
+        {
+            "name": "Avil Milk",
+            "description": "",
+            "price": "80",
+            "currency": "INR"
+        },
+        {
+            "name": "Sharjah",
+            "description": "",
+            "price": "70",
+            "currency": "INR"
+        }
+    ],
+    "Refreshment Time" : [
+        {
+            "name": "Bread Omlette",
+            "description": "",
+            "price": "30",
+            "currency": "INR"
+        },
+        {
+            "name": "Coffee",
+            "description": "",
+            "price": "15",
+            "currency": "INR"
+        },
+        {
+            "name": "Tea",
+            "description": "",
+            "price": "10",
+            "currency": "INR"
+        },
+        {
+            "name": "Special Tea",
+            "description": "",
+            "price": "15",
+            "currency": "INR"
+        },
+        {
+            "name": "Horlicks",
+            "description": "",
+            "price": "20",
+            "currency": "INR"
+        },
+        {
+            "name": "Boost",
+            "description": "",
+            "price": "20",
+            "currency": "INR"
+        },
+        {
+            "name": "Lemon",
+            "description": "",
+            "price": "15",
+            "currency": "INR"
+        },
+        {
+            "name": "Sukku Coffee",
+            "description": "",
+            "price": "15",
+            "currency": "INR"
+        },
+        {
+            "name": "Cold Coffee",
+            "description": "",
+            "price": "50",
+            "currency": "INR"
+        },
+        {
+            "name": "Ice Tea",
+            "description": "",
+            "price": "50",
+            "currency": "INR"
+        }
+    ],
+    "Mojito" : [
+        {
+            "name": "Green Apple",
+            "description": "",
+            "price": "50",
+            "currency": "INR"
+        },
+        {
+            "name": "Lime Mojitto",
+            "description": "",
+            "price": "50",
+            "currency": "INR"
+        },
+        {
+            "name": "Blue Currco",
+            "description": "",
+            "price": "50",
+            "currency": "INR"
+        }
+    ],
+    "Lemonade" : [
+        {
+            "name": "Fresh Lime",
+            "description": "",
+            "price": "20",
+            "currency": "INR"
+        },
+        {
+            "name": "Rose Milk",
+            "description": "",
+            "price": "30",
+            "currency": "INR"
+        },
+        {
+            "name": "Badam Milk",
+            "description": "",
+            "price": "30",
+            "currency": "INR"
+        },
+        {
+            "name": "Mint Lime",
+            "description": "",
+            "price": "25",
+            "currency": "INR"
+        },
+        {
+            "name": "Ginger Lime",
+            "description": "",
+            "price": "25",
+            "currency": "INR"
+        },
+        {
+            "name": "Blue Lime",
+            "description": "",
+            "price": "30",
+            "currency": "INR"
+        },
+        {
+            "name": "Pepper Lime",
+            "description": "",
+            "price": "25",
+            "currency": "INR"
+        },
+        {
+            "name": "Jaljeera Lime",
+            "description": "",
+            "price": "25",
+            "currency": "INR"
+        },
+        {
+            "name": "Pineapple Lime",
+            "description": "",
+            "price": "25",
+            "currency": "INR"
+        },
+        {
+            "name": "Grape Lime",
+            "description": "",
+            "price": "25",
+            "currency": "INR"
+        },
+        {
+            "name": "Sarbath Soda",
+            "description": "",
+            "price": "30",
+            "currency": "INR"
+        },
+        {
+            "name": "Lime Soda",
+            "description": "",
+            "price": "30",
+            "currency": "INR"
+        },
+        {
+            "name": "Mint Lime Soda",
+            "description": "",
+            "price": "35",
+            "currency": "INR"
+        },
+        {
+            "name": "Blue Lime Soda",
+            "description": "",
+            "price": "35",
+            "currency": "INR"
+        },
+        {
+            "name": "Ginger Lime Soda",
+            "description": "",
+            "price": "35",
+            "currency": "INR"
+        }
+    ],
+    "Smoothies" : [
+        {
+            "name": "Strawberry",
+            "description": "",
+            "price": "80",
+            "currency": "INR"
+        },
+        {
+            "name": "Banana",
+            "description": "",
+            "price": "70",
+            "currency": "INR"
+        },
+        {
+            "name": "Mango",
+            "description": "",
+            "price": "70",
+            "currency": "INR"
+        },
+        {
+            "name": "Avacado",
+            "description": "",
+            "price": "80",
+            "currency": "INR"
+        },
+        {
+            "name": "Pineapple",
+            "description": "",
+            "price": "70",
+            "currency": "INR"
+        },
+        {
+            "name": "Pappaya",
+            "description": "",
+            "price": "70",
+            "currency": "INR"
+        },
+        {
+            "name": "Chocolate",
+            "description": "",
+            "price": "80",
+            "currency": "INR"
+        },
+        {
+            "name": "Pista",
+            "description": "",
+            "price": "80",
+            "currency": "INR"
+        },
+        {
+            "name": "Fruit Mix",
+            "description": "",
+            "price": "60",
+            "currency": "INR"
+        }
+    ],
+    "Dry Milk Shake" : [
+        {
+            "name": "Pista",
+            "description": "",
+            "price": "75",
+            "currency": "INR"
+        },
+        {
+            "name": "Mixed Dry Fruit",
+            "description": "",
+            "price": "75",
+            "currency": "INR"
+        },
+        {
+            "name": "Dates",
+            "description": "",
+            "price": "70",
+            "currency": "INR"
+        },
+        {
+            "name": "Badam",
+            "description": "",
+            "price": "70",
+            "currency": "INR"
+        }
+    ],
+    "Lassi" : [
+        {
+            "name": "Sweet Lassi",
+            "description": "",
+            "price": "30",
+            "currency": "INR"
+        },
+        {
+            "name": "Pineapple Lassi",
+            "description": "",
+            "price": "40",
+            "currency": "INR"
+        },
+        {
+            "name": "Dry Fruit Lassi",
+            "description": "",
+            "price": "60",
+            "currency": "INR"
+        },
+        {
+            "name": "Fruit Lassi",
+            "description": "",
+            "price": "50",
+            "currency": "INR"
+        },
+        {
+            "name": "Mango Lassi",
+            "description": "",
+            "price": "50",
+            "currency": "INR"
+        },
+        {
+            "name": "Banana Lassi",
+            "description": "",
+            "price": "50",
+            "currency": "INR"
+        },
+        {
+            "name": "Strawberry Lassi",
+            "description": "",
+            "price": "60",
+            "currency": "INR"
+        },
+        {
+            "name": "Pista Lassi",
+            "description": "",
+            "price": "60",
+            "currency": "INR"
+        },
+        {
+            "name": "Grape Lassi",
+            "description": "",
+            "price": "50",
+            "currency": "INR"
+        },
+        {
+            "name": "Litchi Lassi",
+            "description": "",
+            "price": "60",
+            "currency": "INR"
+        },
+        {
+            "name": "Chocolate Lassi",
+            "description": "",
+            "price": "60",
+            "currency": "INR"
+        },
+        {
+            "name": "Pappaya Lassi",
+            "description": "",
+            "price": "50",
+            "currency": "INR"
+        }
+    ]
+}
