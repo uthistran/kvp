@@ -1,14 +1,16 @@
 import React from 'react'
+import ProductComponent from '../product/product';
+import './category.css'
 
-class CategoryComponent extends React.Component{
-    render(){
-        return(
+class CategoryComponent extends React.Component {
+    render() {
+        return (
             <div>
-                <div className='category' ></div>
-                <ul>
+                <div className='category' >{this.props.category}</div>
+                <ul className='productList'>
                     {
                         this.props.products.map((product, index) => {
-                            <ProductComponent key={index} product={product}></ProductComponent>
+                            return <ProductComponent key={index} product={product}></ProductComponent>
                         })
                     }
                 </ul>
@@ -16,3 +18,5 @@ class CategoryComponent extends React.Component{
         )
     }
 }
+
+export default CategoryComponent;
