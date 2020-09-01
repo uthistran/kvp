@@ -16,7 +16,7 @@
 }
 
 .category .arrowsDown{
-    background-image: url(/up.svg);
+    background-image: url(./up.svg);
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
@@ -36,7 +36,7 @@
 }
 
 .category .arrowsUp{
-    background-image: url(/up.svg);
+    background-image: url(./up.svg);
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
