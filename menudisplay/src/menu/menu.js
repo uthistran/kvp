@@ -4,9 +4,6 @@ import CategoryComponent from '../category/category'
 import './menu.css'
 
 class MenuComponent extends React.Component {
-
-
-
     render() {
         return (
             <div className='menuDiv'>
