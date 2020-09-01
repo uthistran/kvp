@@ -2,3 +2,9 @@
     height: 87%;
     overflow: auto;
 }
+
+.loader{
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 28px);
+}
