@@ -1,52 +1,45 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ProductComponent from '../product/product';
-import './category.css'
+import './category.css';
+import { useTranslation } from 'react-i18next'
 
-class CategoryComponent extends React.Component {
+function CategoryComponent(props) {
+    const [showProducts, displayProduct] = useState(false);
+    const { t } = useTranslation();
 
-    constructor() {
-        super();
-        this.state = {
-            showProducts: false
-        }
-        this.handleCategoryClick = this.handleCategoryClick.bind(this);
+    function handleCategoryClick() {
+        displayProduct(!showProducts)
     }
 
-    handleCategoryClick() {
-        this.setState({
-            showProducts: !this.state.showProducts
-        })
-    }
 
-    render() {
-        var span;
-        if (this.state.showProducts) {
-            span = <span className='arrowsDown'></span>
-        }
-        else
-            span = <span className='arrowsUp'></span>
-        return (
-            <div>
-                <div className='category' onClick={this.handleCategoryClick} >
-                    {this.props.category}
-                    {span}
-                </div>
-                {
-                    this.state.showProducts ?
-                        <ul className='productList'>
-                            {
-                                (
-                                    this.props.products.map((product, index) => {
-                                        return <ProductComponent key={index} product={product}></ProductComponent>
-                                    })
-                                )
-                            }
-                        </ul>
-                        : null
-                }
+    var span;
+    if (showProducts) {
+        span = <span className='arrowsDown'></span>
+    }
+    else
+        span = <span className='arrowsUp'></span>
+    return (
+        <div>
+            <div className='category' onClick={handleCategoryClick} >
+                {t(props.category)}
+                {span}
             </div>
-        )
-    }
+            {
+                showProducts ?
+                    <ul className='productList'>
+                        {
+                            (
+                                props.products.map((product, index) => {
+                                    return <ProductComponent key={index} product={product}></ProductComponent>
+                                })
+                            )
+                        }
+                    </ul>
+                    : null
+            }
+        </div>
+    )
+
 }
 
 export default CategoryComponent;

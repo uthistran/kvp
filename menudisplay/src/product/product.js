@@ -10,7 +10,7 @@ function ProductComponent(props) {
     return (
         <li>
             <h4 className='productName'>{t(props.product.name)}</h4>
-            <div className='productDescription'>{props.product.description}</div>
+            <div className='productDescription'>{t(props.product.description)}</div>
             <div className='productPrice'>{numberFormat(props.product.price)}</div>
         </li>
     )
