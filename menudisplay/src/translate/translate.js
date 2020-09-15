@@ -14,7 +14,7 @@ function Translation(){
 
     useEffect(()=>{
         i18n.changeLanguage(value, function(e){
-            console.log(e)
+            console.log("language updated")
         })
     })
     
@@ -22,6 +22,7 @@ function Translation(){
         <div className='translateDiv'>
             <select value={value} onChange={handleChange}>
             <option value="en-US">English</option>
+            <option value="zh-ZH">Chinese</option>
             <option value="es-ES">Spanish</option>
             <option value="ta-IN">Tamil</option>
           </select>
